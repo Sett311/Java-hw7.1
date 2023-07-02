@@ -27,6 +27,7 @@ public class StatsServiceTest {
         //4
         int expectMinSales = 10;
         int actualMinSales = service.minSales(sales);
+        Assertions.assertEquals(expectMinSales, actualMinSales);
 
         //5
         int expectAmountLowSales = 6;
@@ -36,5 +37,6 @@ public class StatsServiceTest {
         //6
         int expectAmountHiSales =6;
         int actualAmountHiSales = service.getAmountHiSales(sales);
+        Assertions.assertEquals(expectAmountHiSales, actualAmountHiSales);
     }
 }
