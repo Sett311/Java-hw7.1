@@ -2,7 +2,7 @@ package ru.netology.stats;
 
 public class Main {
     public static void main(String[] args) {
-        int[] sales = {
+        long[] sales = {
                 //8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18
                 20, 10, 5, 11, 8, 13, 19, 13, 8, 5, 14, 20
         };
